@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of RxStoreKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/RxStoreKit",
+  "homepage": "https://github.com/LeeroyDing/RxStoreKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,20 @@
     "Leeroy Ding": "i@leeroy.im"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/RxStoreKit.git",
+    "git": "https://github.com/LeeroyDing/RxStoreKit.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/LeeroyDing",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RxStoreKit/Classes/**/*"
+  "source_files": "RxStoreKit/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "~> 2.5"
+    ],
+    "RxCocoa": [
+      "~> 2.5"
+    ]
+  }
 }
