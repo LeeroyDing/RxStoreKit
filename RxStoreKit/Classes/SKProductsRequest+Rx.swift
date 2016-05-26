@@ -12,15 +12,15 @@ import RxCocoa
 
 extension SKProductsRequest {
 	
-	func rx_createDelegateProxy() -> RxProductsRequestDelegateProxy {
+	public func rx_createDelegateProxy() -> RxProductsRequestDelegateProxy {
 		return RxProductsRequestDelegateProxy(parentObject: self)
 	}
 	
-	var rx_delegate: DelegateProxy {
+	public var rx_delegate: DelegateProxy {
 		return RxProductsRequestDelegateProxy.proxyForObject(self)
 	}
 	
-	var rx_productsResponse: Observable<SKProductsResponse> {
+	public var rx_productsResponse: Observable<SKProductsResponse> {
 		let proxy = RxProductsRequestDelegateProxy.proxyForObject(self)
 		return proxy.productsResponse
 	}
