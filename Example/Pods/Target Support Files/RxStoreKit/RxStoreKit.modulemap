@@ -1,0 +1,6 @@
+framework module RxStoreKit {
+  umbrella header "RxStoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

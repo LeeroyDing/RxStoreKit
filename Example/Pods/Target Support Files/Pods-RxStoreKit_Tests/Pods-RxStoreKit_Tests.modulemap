@@ -1,0 +1,6 @@
+framework module Pods_RxStoreKit_Tests {
+  umbrella header "Pods-RxStoreKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
